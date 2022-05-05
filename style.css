@@ -380,7 +380,7 @@ main #contact{
 
 
 main #contact input{
-    background-color: #FFFFE0;
+    background-color: #FFF;
     padding: 15px;
     margin-bottom: 15px;
     border: 1px solid grey;
@@ -388,7 +388,7 @@ main #contact input{
 
 
 main #contact textarea{
-    background-color: #FFFFE0;
+    background-color: #FFF;
     border: 1px solid grey;
     margin-bottom: 15px;
 }
@@ -401,7 +401,10 @@ main #contact .btn{
     font-size: 15px;
 }
 main #contact .btn:hover{
- border: 2px solid red;
+   color: rgb(0, 0, 0);
+    background-color: #000;
+    transition: 0.5s ease;
+    color: #FFF;
 }
 
 
