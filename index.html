@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon" />
+    <title>Restaurant</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="imgs/m_logo.png" alt="" />
+
+      <nav id="menu">
+        <ul>
+          <li><a onclick="FuncMenu()" href="#">Home</a></li>
+          <li><a onclick="FuncMenu()" href="#reservation">Reservation</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="main">
+        <div class="banner banner2">
+          <span>
+            <img src="imgs/m_logo.png" alt="">
+            <h4>NEW DELHI</h4>
+          </span>
+        </div>
+      </div>
+
+      <div class="organizar">
+        <div>
+          <h1 class="title">Introduction</h1>
+          <p>
+            Indian Accent showcases inventive Indian cuisine by complementing
+            the flavours and traditions of India with global ingredients and
+            techniques. <br /><br />
+            Indian Accent, New Delhi is ranked as the #22 Restaurant in Asia by
+            Asia’s 50 Best Restaurants. It has been awarded the San Pellegrino
+            ‘Best Restaurant in India’ by Asia’s 50 Best Restaurants for seven
+            consecutive years (from 2015-2021). The restaurant has also been
+            rated as the ‘No.1 Restaurant in India’ by TripAdvisor consistently
+            from 2014 – 2019. Recognized by Time Magazine ‘Amongst the World’s
+            100 Greatest Places’ and awarded the Number 1 Restaurant in India by
+            Condé Nast Traveller.
+          </p>
+          <span><a href="menu.html">View Menu</a></span>
+        </div>
+        <img src="imgs/atta.jpg" />
+      </div>
+
+      <div class="organizar title1">
+        <div>
+          <h1 class="title">MENU</h1>
+          <p>
+            Chef Manish Mehrotra has designed Indian Accent’s path-breaking
+            contemporary Indian menu combining fresh seasonal produce and
+            unusual ingredients from across the world to excite the adventurous,
+            yet satisfy traditional tastes and evoke nostalgia. The six course
+            Chef's Tasting menu where each course is paired with a selection of
+            wines from India and across the world, offers the complete dining
+            experience of the restaurant.
+          </p>
+          <span><a href="menu.html">VIEW MENU</a></span>
+        </div>
+        <img src="imgs/garlic.jpg" />
+      </div>
+
+      <section class="reserves">
+        <h1 id="reservation">Reservations</h1>
+
+        <form action="https://formspree.io/f/xyyblwke" method="POST">
+          <input
+            type="date"
+            required="required"
+            name="name"
+            value="2022-01-01"
+          />
+
+          <select name="name">
+            <option>Time</option>
+            <option>9:00 AM</option>
+            <option>9:15 AM</option>
+            <option>9:30 AM</option>
+            <option>9:45 AM</option>
+            <option>10:00 AM</option>
+            <option>10:15 AM</option>
+            <option>10:30 AM</option>
+            <option>10:45 AM</option>
+            <option>11:00 AM</option>
+            <option>11:15 AM</option>
+            <option>11:30 AM</option>
+            <option>11:45 AM</option>
+            <option>12:00 PM</option>
+            <option>12:15 PM</option>
+            <option>12:30 PM</option>
+            <option>12:45 PM</option>
+            <option>1:00 PM</option>
+            <option>1:15 PM</option>
+            <option>1:30 PM</option>
+            <option>1:45 PM</option>
+            <option>2:00 PM</option>
+            <option>2:15 PM</option>
+            <option>2:30 PM</option>
+            <option>2:45 PM</option>
+            <option>3:00 PM</option>
+            <option>3:15 PM</option>
+            <option>3:45 PM</option>
+            <option>4:00 PM</option>
+            <option>4:15 PM</option>
+            <option>4:30 PM</option>
+            <option>4:45 PM</option>
+            <option>5:00 PM</option>
+            <option>5:15 PM</option>
+            <option>5:30 PM</option>
+            <option>5:45 PM</option>
+            <option>6:00 PM</option>
+            <option>6:15 PM</option>
+            <option>6:30 PM</option>
+            <option>6:45 PM</option>
+            <option>7:00 PM</option>
+            <option>7:15 PM</option>
+            <option>7:30 PM</option>
+            <option>7:45 PM</option>
+            <option>8:00 PM</option>
+            <option>8:15 PM</option>
+            <option>8:30 PM</option>
+            <option>8:45 PM</option>
+            <option>9:00 PM</option>
+            <option>9:15 PM</option>
+            <option>9:30 PM</option>
+            <option>9:45 PM</option>
+            <option>10:00 PM</option>
+            <option>10:15 PM</option>
+            <option>10:30 PM</option>
+            <option>10:45 PM</option>
+            <option>11:00 PM</option>
+            <option>11:15 PM</option>
+            <option>11:30 PM</option>
+            <option>11:45 PM</option>
+          </select>
+
+          <select name="name">
+            <option>Party Size</option>
+            <option>1 person</option>
+            <option>2 person</option>
+            <option>3 person</option>
+            <option>4 person</option>
+            <option>5 person</option>
+            <option>6 person</option>
+          </select>
+
+          <input type="submit" required="required" class="btn" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <ul class="icons">
+        <a href="https://www.instagram.com" target="_new"><i class="fab fa-instagram"></i> </a>
+        <a href="https://www.facebook.com"target="_new"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.twitter.com"target="_new"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com"target="_blank"><i class="fab fa-linkedIn-p"></i></a>
+      </ul>
+
+      <section class="address">
+        <div class="all">
+          <div>
+            <h1>Opening Hours</h1>
+            <p>Mon - Fri:11am - 10pm</p>
+            <p>Sat - Sun:11am - 12am</p>
+          </div>
+
+          <div>
+            <h1>Contact Us</h1>
+            <p>alamashraf70@gmail.com.com</p>
+            <p id="si">+9170338824449</p>
+          </div>
+        </div>
+
+        <hr />
+        <p id="copyright">©2021 Muhammad Ashraf</p>
+      </section>
+    </footer>
+  </body>
+</html>
